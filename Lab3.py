@@ -33,7 +33,7 @@ def bubble_sort(arr, sorting_order):
                     else:
                         # Return an empty array
                         arr_result = []
-            else: #this
+            else: #this 
                 arr_result = 2
 
     elif n == 0:
