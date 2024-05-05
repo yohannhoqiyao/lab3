@@ -1,15 +1,10 @@
-import price_info
-
-print("test price info")
+import price_info as pi
 
 def test_total_cost_shopping():
-  
-    result = price_info.total_cost_shopping()
-    assert (result==46.75)
-
-def test_cost_of_fruit():
-
+    result = pi.total_cost_shopping()
+    assert (result == 46.75)
+def test_cost_of_fruits():
     input_quant = 5
-    input_fruit = "apple"
-    result = price_info.cost_of_fruits(input_fruit,input_quant)
-    assert (result == 12)
+    fruit = "orange"
+    result = pi.cost_of_fruits(fruit, input_quant)
+    assert (result == 7)

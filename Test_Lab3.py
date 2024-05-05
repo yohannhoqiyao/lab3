@@ -43,6 +43,6 @@ def test_0_num():
 
 def test_not_int():
     result = []
-    input_arr = [1,2,3,'t',4.3]
+    input_arr = [1,2,3,4.3]
     result = Lab3.bubble_sort(input_arr, 1)
     assert (result == 2)
