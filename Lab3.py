@@ -17,7 +17,7 @@ def bubble_sort(arr, sorting_order):
         for i in range(n - 1):
             # range(n) also work but outer loop will
             # repeat one time more than needed.
-            if type(i) == int:
+            if type(i) == int: 
             # Last i elements are already in place
                 for j in range(0, n - i - 1):
 
@@ -33,7 +33,7 @@ def bubble_sort(arr, sorting_order):
                     else:
                         # Return an empty array
                         arr_result = []
-            else:
+            else: #this
                 arr_result = 2
 
     elif n == 0:
